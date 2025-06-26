@@ -1,0 +1,14 @@
+fire==0.7.0
+fonttools==4.58.4
+grpcio==1.73.1
+grpcio-tools==1.73.1
+lxml==6.0.0
+numpy==2.3.1
+opencv-python-headless==4.11.0.86
+pdf2docx==0.5.8
+protobuf==6.31.1
+PyMuPDF==1.26.1
+python-docx==1.2.0
+setuptools==80.9.0
+termcolor==3.1.0
+typing_extensions==4.14.0
