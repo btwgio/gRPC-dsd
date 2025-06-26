@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+service ConverterService {
+  rpc ConvertPdfToWord (PdfFile) returns (WordFile);
+}
+
+message PdfFile {
+  bytes content = 1;
+  string filename = 2;
+}
+
+message WordFile {
+  bytes content = 1;
+  string filename = 2;
+}
